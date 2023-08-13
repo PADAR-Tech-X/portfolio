@@ -31,21 +31,21 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>paul.adeboye@yahoo.com</h5>
-            <a href="mailto:paul.adeboye@yahoo.com" target={'_blank'}>Send a message</a>
+            <a href="mailto:paul.adeboye@yahoo.com" target={'_blank'} rel="noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <FiTwitter className='contact__option-icon'/>
             <h4>Twitter</h4>
             <h5>@paul_0fficial</h5>
-            <a href="https://twitter.com/paul_0fficial" target={'_blank'}>Send a message</a>
+            <a href="https://twitter.com/paul_0fficial" target={'_blank'} rel="noreferrer">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <FaWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+234-808-904-5470</h5>
-            <a href="https://wa.link/a1iaa9" target={'_blank'}>Send a message</a>
+            <a href="https://wa.link/a1iaa9" target={'_blank'} rel="noreferrer">Send a message</a>
           </article>
         </div>
 
