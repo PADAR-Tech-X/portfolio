@@ -9,11 +9,18 @@ const Elevator = () => {
 
         <div className='container elevator_container'>
             <div className='elevator_main'>
-                <h3>Elevator Pitch Video</h3>
-                <h1>COMING SOON!</h1>
+              <div>
+              <iframe src='https://www.youtube.com/embed/n_aG6B5U0R0'
+                  frameborder='0'
+                  allow='autoplay; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                  allowFullScreen
+                  title='Paul Aderoju Elevator Pitch'>
+                  </iframe>
+              </div>
             </div>
         </div>
     </section>
   )
 }
 export default Elevator
+

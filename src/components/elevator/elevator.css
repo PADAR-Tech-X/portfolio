@@ -1,8 +1,9 @@
 .elevator_main {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    width: 100%;
 }
 
 .elevator__container > div {
@@ -25,3 +26,30 @@
     color: var(--color-primary)
 }
 
+.elevator_main {
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.elevator_main > div > iframe {
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .elevator_main > div > iframe {
+        height: 70vh;
+        width: 100%;
+    } 
+ }
+ 
+ /* =================MEDIA QUERIES (SMALL DEVICES) =================*/
+ @media screen and (max-width: 600px) {
+    .elevator_main > div > iframe {
+        height: 50vh;
+        width: 100%;
+    } 
+ }

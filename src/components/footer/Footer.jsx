@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; PADAR Tech Solutions 2022</small>
+        <small>&copy; Paul Aderoju - 2023</small>
       </div>
     </footer>
   )
