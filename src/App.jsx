@@ -9,20 +9,37 @@ import Elevator from './components/elevator/Elevator'
 // import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import AnimatedSection from './components/AnimatedSection'
 
 const App = () => {
   return (
     <>
-        <Header />
+        <AnimatedSection>
+          <Header />
+        </AnimatedSection>
         <Nav/>
-        <About/>
-        <Experience/>
-        <Services/>
-        <Portfolio/>
-        <Elevator />
+        <AnimatedSection>
+          <About/>
+        </AnimatedSection>
+        <AnimatedSection>
+          <Experience/>
+        </AnimatedSection>
+        <AnimatedSection>
+          <Services/>
+        </AnimatedSection>
+        <AnimatedSection>
+          <Portfolio/>
+        </AnimatedSection>
+        <AnimatedSection>
+          <Elevator />
+        </AnimatedSection>
         {/* <Testimonials/> */}
-        <Contact/>
-        <Footer/>
+        <AnimatedSection>
+          <Contact/>
+        </AnimatedSection>
+        <AnimatedSection>
+          <Footer/>
+        </AnimatedSection>
     </>
   )
 }
