@@ -27,9 +27,7 @@ const App = () => {
         <AnimatedSection>
           <Services/>
         </AnimatedSection>
-        <AnimatedSection>
           <Portfolio/>
-        </AnimatedSection>
         <AnimatedSection>
           <Elevator />
         </AnimatedSection>
