@@ -7,6 +7,7 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 import HealingSprings from '../../assets/healing-spring.png'
+import BuilderIo from '../../assets/Builder.io.png'
 import AnimatedSection from '../AnimatedSection'
 
 
@@ -14,13 +15,20 @@ import AnimatedSection from '../AnimatedSection'
 const data = [
   {
     id: 1,
+    image: BuilderIo,
+    title: 'Builder.io - AI Event Launch App',
+    github: 'https://github.com/PaulBoye-py/next-event-launch-app',
+    demo: 'https://next-event-launch-app.vercel.app/'
+  },
+  {
+    id: 2,
     image: HealingSprings,
     title: 'Healing Spring Hospital - IVF Appointment Booking.',
     github: 'https://github.com/PaulBoye-py',
     demo: 'https://www.healingspringhospital.com/'
   },
   {
-    id: 2,
+    id: 3,
     image: IMG5,
     title: 'ALX Team Mavericks Slide Deck - Healthcare Hub App Development',
     github: 'https://github.com/PaulBoye-py',
@@ -28,7 +36,7 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: IMG6,
     title: 'ALX Team Mavericks Video Pitch - Healthcare Hub App Development',
     github: 'https://github.com/PaulBoye-py',
@@ -36,7 +44,7 @@ const data = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: IMG1,
     title: 'PriceBeta: A price comparison shopping engine.',
     github: 'https://github.com/PaulBoye-py/Team_21-Price-Compare',
@@ -46,7 +54,7 @@ const data = [
   
 
   {
-    id: 5,
+    id: 6,
     image: IMG2,
     title: 'Phonie: Detect your mobile carrier.',
     github: 'https://github.com/PaulBoye-py/circle409-1',
@@ -54,7 +62,7 @@ const data = [
   },
 
   {
-    id: 6,
+    id: 7,
     image: IMG3,
     title: 'SkinLye: Dermatology.',
     github: 'https://github.com/PaulBoye-py/SkinLye',
@@ -62,7 +70,7 @@ const data = [
   },
 
   {
-    id: 7,
+    id: 8,
     image: IMG4,
     title: 'Counter: Add to cart dummy project.',
     github: 'https://github.com/PaulBoye-py/React-counter',
